@@ -52,3 +52,23 @@ ssh -i sshkey bandit17@bandit.labs.overthewire.org -p 2220
 
 # 17
 diff file1 file2 
+
+# 18 
+# -t Force pseudo-terminal allocation.  This can be used to execute arbitrary screen-based
+#             programs on a remote machine, which can be very useful,
+ssh -t -p 2220 bandit18@bandit.labs.overthewire.org /bin/sh
+
+# 19
+./bandit20-do cat /etc/bandit_pass/bandit20
+
+# 20
+# use nc to simulate connection between the port
+# do this bandit in one shell and use background
+echo "GbKksEFF4yrVs6il55v6gwY5aVje5f0j" | nc -l 1337 &
+./suconnect 1337
+
+# 21
+
+# 23
+echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+
