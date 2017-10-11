@@ -40,5 +40,15 @@ cat /etc/bandit_pass/bandit14
 telnet localhost 30000
 
 # 15
+# https://zh.wikipedia.org/wiki/%E5%82%B3%E8%BC%B8%E5%B1%A4%E5%AE%89%E5%85%A8%E5%8D%94%E8%AD%B0
+openssl s_client -quiet -connect localhost:30001
+
+# 16
 # https://en.wikipedia.org/wiki/Port_scanner
 nmap -p 31000-32000 localhost
+openssl s_client -quiet -connect localhost:31790
+chmod 600 sshkey
+ssh -i sshkey bandit17@bandit.labs.overthewire.org -p 2220
+
+# 17
+diff file1 file2 
