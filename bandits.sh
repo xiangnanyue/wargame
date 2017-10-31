@@ -72,3 +72,10 @@ echo "GbKksEFF4yrVs6il55v6gwY5aVje5f0j" | nc -l 1337 &
 # 23
 echo I am user bandit23 | md5sum | cut -d ' ' -f 1
 
+# 24
+
+
+# 25 entre vim by "v" and do ":e /etc/bandit_pass/bandit26"
+
+# 26 
+

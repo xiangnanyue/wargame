@@ -1,7 +1,7 @@
 2 <!--The password for natas2 is ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi
 3 http://natas2.natas.labs.overthewire.org/files/users.txt sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14
 4 check robots.txt Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ
-5 use burp, add referer, https://en.wikipedia.org/wiki/HTTP_referer : iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq
+5 use burpsuite, add referer, https://en.wikipedia.org/wiki/HTTP_referer : iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq
 6 change login=1, always use burp . aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1
 7 see code. 7z3hEENjQtflzgnT29q7wAvMNfZdh0i9
 8 the page= works as cd . DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe
